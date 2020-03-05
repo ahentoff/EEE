@@ -1,0 +1,86 @@
+{
+  "annotations": {
+    "EEEVgp1": {
+      "end": 5680,
+      "start": 4024,
+      "strand": 1
+    },
+    "EEEVgp2": {
+      "end": 7525,
+      "start": 5683,
+      "strand": 1
+    },
+    "EEEVgp3": {
+      "end": 11314,
+      "start": 9991,
+      "strand": 1
+    },
+    "EEEVgp4": {
+      "end": 10092,
+      "start": 9820,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 11675,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "color_map": [
+        [
+          "USA",
+          "#A18362"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "state": {
+      "color_map": [],
+      "key": "state",
+      "legendTitle": "State",
+      "menuItem": "state",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "state",
+    "geoResolution": "state",
+    "mapTriplicate": false
+  },
+  "filters": [
+    "country",
+    "state"
+  ],
+  "geo": {
+    "country": {
+      "USA": {
+        "latitude": 37.0902,
+        "longitude": -95.7129
+      }
+    }
+  },
+  "maintainer": [
+    "Aaron",
+    "git@github.com:ahentoff/EEEV.git"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "EEE",
+  "updated": "05 Mar 2020",
+  "virus_count": 54
+}
